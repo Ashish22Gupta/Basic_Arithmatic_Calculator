@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+      <br>
+  <tr>
+    <td colspan="3"><input type="text" id="result"/></td>
+  </tr>
+<br>
+<br>
+  <tr>
+    <td><input type="button" value="%" onclick="view('%')"/></td>
+    <td><input type="button" id="A1" value="AC" onclick="clr()"/></td>
+    <td><input type="reset" id="C1" value="RST"></td>
+    <td><input type="button" id="B1" value="CE" onclick="cut()"/></td>
+    <td><input type="button" value="1/x" onclick="x()"></td>
+    <td><input type="button" value="x²" onclick="square()"></td>
+    <td><input type="button" value="2√x" onclick="root()"></td>                    
+    <td><input type="button" value="÷" onclick="view('/')"/></td> 
+    <td><input type="button" value="7" onclick="view('7')"/></td>
+    <td><input type="button" value="8" onclick="view('8')"/></td>
+    <td><input type="button" value="9" onclick="view('9')"/></td>
+    <td><input type="button" value="X" onclick="view('*')"/></td>
+    <td><input type="button" value="4" onclick="view('4')"/></td>
+    <td><input type="button" value="5" onclick="view('5')"/></td>
+    <td><input type="button" value="6" onclick="view('6')"/></td>
+    <td><input type="button" value="-" onclick="view('-')"/></td>
+    <td><input type="button" value="1" onclick="view('1')"/></td>
+    <td><input type="button" value="2" onclick="view('2')"/></td>
+    <td><input type="button" value="3" onclick="view('3')"/></td>
+    <td><input type="button" value="+" onclick="view('+')"/></td>
+    <td><input type="button" value="+/-" onclick="addsub()"></td>
+    <td><input type="button" value="0" onclick="view('0')"/></td>
+    <td><input type="button" value="." onclick="view('.')"/></td>
+    <td><input type="button" value="=" onclick="compute()"/></td>
+  </tr>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
