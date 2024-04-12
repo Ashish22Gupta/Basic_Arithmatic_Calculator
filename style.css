@@ -71,17 +71,18 @@ background-color:chocolate;
         margin-right: 5%;
         margin-left: 8%;
         font-size:120%;
-        height: 10%;
-        width: 10%;
-        margin-top: 4%;
+        height: 11%;
+        width: 11%;
+        margin-top: 1%;
     }
 }
 @media only screen and (max-width:581px){
     input{
-        height: 10%;
-        width: 10%;
-        margin-top: 4%;
-        font-size: 120%;
+        height: 11%;
+        width: 11%;
+        margin-top: 2%;
+        font-size: 130%;
+        margin-left: 7.5%;
     }
     form{
         height: 70%;
@@ -92,11 +93,11 @@ background-color:chocolate;
 }
 @media only screen and (max-width: 490px){
     input{
-        margin-right: 1%;
+        margin-right: 0%;
         font-size:100%;
-        height: 12%;
-        width: 12%;
-        margin-top: 1%;
+        height: 10%;
+        width: 14%;
+        margin-top: 2%;
     }
     form{
         height: 70%;
